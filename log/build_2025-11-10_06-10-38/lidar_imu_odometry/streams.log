@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/root/ros2_ws/build/lidar_imu_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_imu_odometry -- -j10 -l10
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target odom_node[0m
+[0.195s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_node.dir/src/odom_node.cpp.o[0m
+[10.006s] [100%] [32m[1mLinking CXX executable odom_node[0m
+[10.925s] [100%] Built target odom_node
+[10.934s] Invoked command in '/root/ros2_ws/build/lidar_imu_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_imu_odometry -- -j10 -l10
+[10.941s] Invoking command in '/root/ros2_ws/build/lidar_imu_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_imu_odometry
+[10.945s] -- Install configuration: ""
+[10.946s] -- Execute custom install script
+[10.946s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_imu_odometry
+[10.947s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_imu_odometry
+[10.947s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.sh
+[10.947s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.dsv
+[10.948s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.sh
+[10.948s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.dsv
+[10.948s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.bash
+[10.949s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.sh
+[10.949s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.zsh
+[10.949s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.dsv
+[10.950s] -- Symlinking: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.dsv
+[10.953s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/packages/lidar_imu_odometry
+[10.954s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig.cmake
+[10.954s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig-version.cmake
+[10.955s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.xml
+[10.956s] -- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/lib/lidar_imu_odometry/odom_node
+[10.958s] Invoked command in '/root/ros2_ws/build/lidar_imu_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/lidar_imu_odometry

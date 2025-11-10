@@ -1,0 +1,28 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:212[m[K:
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:[m[K In member function ‘[01m[Kvoid OdomNode::lidarCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:419:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdx_fused[m[K’ was not declared in this scope; did you mean ‘[01m[KR_fused[m[K’?
+  419 |       [01;31m[Kdx_fused[m[K, dy_fused, dtheta_icp*180/M_PI, dtheta_imu*180/M_PI,
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:419:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdy_fused[m[K’ was not declared in this scope; did you mean ‘[01m[KR_fused[m[K’?
+  419 |       dx_fused, [01;31m[Kdy_fused[m[K, dtheta_icp*180/M_PI, dtheta_imu*180/M_PI,
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:420:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kicp_weight[m[K’ was not declared in this scope
+  420 |       dtheta_fused*180/M_PI, [01;31m[Kicp_weight[m[K, fitness);
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:420:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kfitness[m[K’ was not declared in this scope
+  420 |       dtheta_fused*180/M_PI, icp_weight, [01;31m[Kfitness[m[K);
+      |                                          [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom_node.dir/build.make:76: CMakeFiles/odom_node.dir/src/odom_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

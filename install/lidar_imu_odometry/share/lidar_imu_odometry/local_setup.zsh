@@ -1,0 +1,1 @@
+/root/ros2_ws/build/lidar_imu_odometry/ament_cmake_environment_hooks/local_setup.zsh

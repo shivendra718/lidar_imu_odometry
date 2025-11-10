@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.001133] (lidar_imu_odometry) JobQueued: {'identifier': 'lidar_imu_odometry', 'dependencies': OrderedDict()}
+[0.001308] (lidar_imu_odometry) JobStarted: {'identifier': 'lidar_imu_odometry'}
+[0.008173] (lidar_imu_odometry) JobProgress: {'identifier': 'lidar_imu_odometry', 'progress': 'cmake'}
+[0.010019] (lidar_imu_odometry) JobProgress: {'identifier': 'lidar_imu_odometry', 'progress': 'build'}
+[0.010773] (lidar_imu_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/lidar_imu_odometry', '--', '-j10', '-l10'], 'cwd': '/root/ros2_ws/build/lidar_imu_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/lidar_imu_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067580] (lidar_imu_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odom_node\x1b[0m\n'}
+[0.099764] (-) TimerEvent: {}
+[0.200838] (-) TimerEvent: {}
+[0.280828] (lidar_imu_odometry) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom_node.dir/src/odom_node.cpp.o\x1b[0m\n'}
+[0.301812] (-) TimerEvent: {}
+[0.402831] (-) TimerEvent: {}
+[0.503833] (-) TimerEvent: {}
+[0.606816] (-) TimerEvent: {}
+[0.707806] (-) TimerEvent: {}
+[0.815793] (-) TimerEvent: {}
+[0.917852] (-) TimerEvent: {}
+[1.019802] (-) TimerEvent: {}
+[1.120812] (-) TimerEvent: {}
+[1.221844] (-) TimerEvent: {}
+[1.329898] (-) TimerEvent: {}
+[1.430784] (-) TimerEvent: {}
+[1.531841] (-) TimerEvent: {}
+[1.632790] (-) TimerEvent: {}
+[1.733847] (-) TimerEvent: {}
+[1.842856] (-) TimerEvent: {}
+[1.943855] (-) TimerEvent: {}
+[2.046859] (-) TimerEvent: {}
+[2.150803] (-) TimerEvent: {}
+[2.251849] (-) TimerEvent: {}
+[2.352856] (-) TimerEvent: {}
+[2.453809] (-) TimerEvent: {}
+[2.554817] (-) TimerEvent: {}
+[2.655851] (-) TimerEvent: {}
+[2.756830] (-) TimerEvent: {}
+[2.857840] (-) TimerEvent: {}
+[2.962850] (-) TimerEvent: {}
+[3.063835] (-) TimerEvent: {}
+[3.164838] (-) TimerEvent: {}
+[3.265831] (-) TimerEvent: {}
+[3.366854] (-) TimerEvent: {}
+[3.467869] (-) TimerEvent: {}
+[3.568841] (-) TimerEvent: {}
+[3.669842] (-) TimerEvent: {}
+[3.770830] (-) TimerEvent: {}
+[3.871910] (-) TimerEvent: {}
+[3.975851] (-) TimerEvent: {}
+[4.076848] (-) TimerEvent: {}
+[4.177848] (-) TimerEvent: {}
+[4.278864] (-) TimerEvent: {}
+[4.379879] (-) TimerEvent: {}
+[4.480868] (-) TimerEvent: {}
+[4.581879] (-) TimerEvent: {}
+[4.686811] (-) TimerEvent: {}
+[4.787849] (-) TimerEvent: {}
+[4.888805] (-) TimerEvent: {}
+[4.989851] (-) TimerEvent: {}
+[5.090859] (-) TimerEvent: {}
+[5.191861] (-) TimerEvent: {}
+[5.293155] (-) TimerEvent: {}
+[5.394015] (-) TimerEvent: {}
+[5.494840] (-) TimerEvent: {}
+[5.598853] (-) TimerEvent: {}
+[5.699905] (-) TimerEvent: {}
+[5.800888] (-) TimerEvent: {}
+[5.902625] (-) TimerEvent: {}
+[6.005854] (-) TimerEvent: {}
+[6.107930] (-) TimerEvent: {}
+[6.209374] (-) TimerEvent: {}
+[6.310951] (-) TimerEvent: {}
+[6.413603] (-) TimerEvent: {}
+[6.515084] (-) TimerEvent: {}
+[6.616920] (-) TimerEvent: {}
+[6.718924] (-) TimerEvent: {}
+[6.824857] (-) TimerEvent: {}
+[6.926008] (-) TimerEvent: {}
+[7.027611] (-) TimerEvent: {}
+[7.128868] (-) TimerEvent: {}
+[7.230910] (-) TimerEvent: {}
+[7.333094] (-) TimerEvent: {}
+[7.434903] (-) TimerEvent: {}
+[7.535900] (-) TimerEvent: {}
+[7.640875] (-) TimerEvent: {}
+[7.742824] (-) TimerEvent: {}
+[7.848901] (-) TimerEvent: {}
+[7.949939] (-) TimerEvent: {}
+[8.050879] (-) TimerEvent: {}
+[8.152857] (-) TimerEvent: {}
+[8.254091] (-) TimerEvent: {}
+[8.355856] (-) TimerEvent: {}
+[8.457343] (-) TimerEvent: {}
+[8.559321] (-) TimerEvent: {}
+[8.660353] (-) TimerEvent: {}
+[8.761834] (-) TimerEvent: {}
+[8.862900] (-) TimerEvent: {}
+[8.963900] (-) TimerEvent: {}
+[9.066845] (-) TimerEvent: {}
+[9.168925] (-) TimerEvent: {}
+[9.274581] (-) TimerEvent: {}
+[9.376366] (-) TimerEvent: {}
+[9.478886] (-) TimerEvent: {}
+[9.581105] (-) TimerEvent: {}
+[9.683889] (-) TimerEvent: {}
+[9.785096] (-) TimerEvent: {}
+[9.889339] (-) TimerEvent: {}
+[9.992854] (-) TimerEvent: {}
+[10.095653] (-) TimerEvent: {}
+[10.199846] (-) TimerEvent: {}
+[10.303531] (-) TimerEvent: {}
+[10.407873] (-) TimerEvent: {}
+[10.510364] (-) TimerEvent: {}
+[10.614113] (-) TimerEvent: {}
+[10.716084] (-) TimerEvent: {}
+[10.821148] (-) TimerEvent: {}
+[10.924151] (-) TimerEvent: {}
+[11.026921] (-) TimerEvent: {}
+[11.128087] (-) TimerEvent: {}
+[11.234906] (-) TimerEvent: {}
+[11.340818] (-) TimerEvent: {}
+[11.446826] (-) TimerEvent: {}
+[11.548991] (-) TimerEvent: {}
+[11.653438] (-) TimerEvent: {}
+[11.754835] (-) TimerEvent: {}
+[11.858885] (-) TimerEvent: {}
+[11.961113] (-) TimerEvent: {}
+[12.062056] (-) TimerEvent: {}
+[12.164124] (-) TimerEvent: {}
+[12.267605] (-) TimerEvent: {}
+[12.373882] (-) TimerEvent: {}
+[12.475602] (-) TimerEvent: {}
+[12.581606] (-) TimerEvent: {}
+[12.683650] (-) TimerEvent: {}
+[12.785172] (-) TimerEvent: {}
+[12.888827] (-) TimerEvent: {}
+[12.990047] (-) TimerEvent: {}
+[13.093316] (-) TimerEvent: {}
+[13.196064] (-) TimerEvent: {}
+[13.298060] (-) TimerEvent: {}
+[13.399890] (-) TimerEvent: {}
+[13.502808] (-) TimerEvent: {}
+[13.604289] (-) TimerEvent: {}
+[13.705564] (-) TimerEvent: {}
+[13.806878] (-) TimerEvent: {}
+[13.908045] (-) TimerEvent: {}
+[14.012811] (-) TimerEvent: {}
+[14.117560] (-) TimerEvent: {}
+[14.219797] (-) TimerEvent: {}
+[14.322051] (-) TimerEvent: {}
+[14.425301] (-) TimerEvent: {}
+[14.530552] (-) TimerEvent: {}
+[14.632082] (-) TimerEvent: {}
+[14.732838] (-) TimerEvent: {}
+[14.835555] (-) TimerEvent: {}
+[14.941301] (-) TimerEvent: {}
+[15.042028] (-) TimerEvent: {}
+[15.144812] (-) TimerEvent: {}
+[15.250810] (-) TimerEvent: {}
+[15.351822] (-) TimerEvent: {}
+[15.460283] (-) TimerEvent: {}
+[15.565022] (-) TimerEvent: {}
+[15.667802] (-) TimerEvent: {}
+[15.773084] (-) TimerEvent: {}
+[15.875102] (-) TimerEvent: {}
+[15.978529] (-) TimerEvent: {}
+[16.080285] (-) TimerEvent: {}
+[16.185824] (-) TimerEvent: {}
+[16.288552] (-) TimerEvent: {}
+[16.393637] (-) TimerEvent: {}
+[16.494958] (-) TimerEvent: {}
+[16.600882] (-) TimerEvent: {}
+[16.702015] (-) TimerEvent: {}
+[16.807887] (-) TimerEvent: {}
+[16.908858] (-) TimerEvent: {}
+[17.009808] (-) TimerEvent: {}
+[17.110867] (-) TimerEvent: {}
+[17.207768] (lidar_imu_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable odom_node\x1b[0m\n'}
+[17.212012] (-) TimerEvent: {}
+[17.312886] (-) TimerEvent: {}
+[17.415843] (-) TimerEvent: {}
+[17.516878] (-) TimerEvent: {}
+[17.617798] (-) TimerEvent: {}
+[17.718810] (-) TimerEvent: {}
+[17.819845] (-) TimerEvent: {}
+[17.924835] (-) TimerEvent: {}
+[18.025810] (-) TimerEvent: {}
+[18.130825] (-) TimerEvent: {}
+[18.231841] (-) TimerEvent: {}
+[18.332807] (-) TimerEvent: {}
+[18.435833] (-) TimerEvent: {}
+[18.536930] (-) TimerEvent: {}
+[18.643743] (lidar_imu_odometry) StdoutLine: {'line': b'[100%] Built target odom_node\n'}
+[18.644790] (-) TimerEvent: {}
+[18.660772] (lidar_imu_odometry) CommandEnded: {'returncode': 0}
+[18.664231] (lidar_imu_odometry) JobProgress: {'identifier': 'lidar_imu_odometry', 'progress': 'install'}
+[18.672457] (lidar_imu_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/lidar_imu_odometry'], 'cwd': '/root/ros2_ws/build/lidar_imu_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/lidar_imu_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.678817] (lidar_imu_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.680634] (lidar_imu_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.681305] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_imu_odometry\n'}
+[18.681700] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_imu_odometry\n'}
+[18.682359] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.sh\n'}
+[18.682727] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.dsv\n'}
+[18.683208] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.sh\n'}
+[18.683548] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.dsv\n'}
+[18.683903] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.bash\n'}
+[18.684474] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.sh\n'}
+[18.685086] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.zsh\n'}
+[18.685437] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.dsv\n'}
+[18.685907] (lidar_imu_odometry) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.dsv\n'}
+[18.693253] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/packages/lidar_imu_odometry\n'}
+[18.693737] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig.cmake\n'}
+[18.694219] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig-version.cmake\n'}
+[18.694773] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.xml\n'}
+[18.695822] (lidar_imu_odometry) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/lidar_imu_odometry/lib/lidar_imu_odometry/odom_node\n'}
+[18.698125] (lidar_imu_odometry) CommandEnded: {'returncode': 0}
+[18.726780] (lidar_imu_odometry) JobEnded: {'identifier': 'lidar_imu_odometry', 'rc': 0}
+[18.729005] (-) EventReactorShutdown: {}

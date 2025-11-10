@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/odom_node.dir/src/odom_node.cpp.o[0m
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:[m[K In member function ‘[01m[Kvoid OdomNode::lidarCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:97:18:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KEigen::AngleAxisf[m[K’ {aka ‘[01m[KEigen::AngleAxis<float>[m[K’} to non-scalar type ‘[01m[KEigen::Matrix3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 3>[m[K’} requested
+   97 |           Eigen::[01;31m[KAngleAxisf(fused_yaw, Eigen::Vector3f::UnitZ())[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom_node.dir/build.make:76: CMakeFiles/odom_node.dir/src/odom_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

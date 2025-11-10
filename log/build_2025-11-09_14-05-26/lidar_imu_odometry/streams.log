@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/lidar_imu_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_imu_odometry -- -j10 -l10
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target odom_node[0m
+[0.419s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_node.dir/src/odom_node.cpp.o[0m
+[5.223s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.226s]                  from [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:212[m[K:
+[5.227s] [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:[m[K In member function ‘[01m[Kvoid OdomNode::lidarCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.227s] [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:419:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdx_fused[m[K’ was not declared in this scope; did you mean ‘[01m[KR_fused[m[K’?
+[5.227s]   419 |       [01;31m[Kdx_fused[m[K, dy_fused, dtheta_icp*180/M_PI, dtheta_imu*180/M_PI,
+[5.227s]       |       [01;31m[K^~~~~~~~[m[K
+[5.230s] [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:419:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdy_fused[m[K’ was not declared in this scope; did you mean ‘[01m[KR_fused[m[K’?
+[5.231s]   419 |       dx_fused, [01;31m[Kdy_fused[m[K, dtheta_icp*180/M_PI, dtheta_imu*180/M_PI,
+[5.231s]       |                 [01;31m[K^~~~~~~~[m[K
+[5.243s] [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:420:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kicp_weight[m[K’ was not declared in this scope
+[5.243s]   420 |       dtheta_fused*180/M_PI, [01;31m[Kicp_weight[m[K, fitness);
+[5.243s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[5.253s] [01m[K/root/ros2_ws/src/lidar_imu_odometry/src/odom_node.cpp:420:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kfitness[m[K’ was not declared in this scope
+[5.254s]   420 |       dtheta_fused*180/M_PI, icp_weight, [01;31m[Kfitness[m[K);
+[5.254s]       |                                          [01;31m[K^~~~~~~[m[K
+[10.998s] gmake[2]: *** [CMakeFiles/odom_node.dir/build.make:76: CMakeFiles/odom_node.dir/src/odom_node.cpp.o] Error 1
+[10.998s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom_node.dir/all] Error 2
+[10.999s] gmake: *** [Makefile:146: all] Error 2
+[11.007s] Invoked command in '/root/ros2_ws/build/lidar_imu_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/lidar_imu_odometry -- -j10 -l10

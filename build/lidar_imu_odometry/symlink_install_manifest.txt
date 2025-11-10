@@ -1,0 +1,16 @@
+/root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_imu_odometry
+/root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_imu_odometry
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.sh
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.sh
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/environment/path.dsv
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.bash
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.sh
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.zsh
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/local_setup.dsv
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.dsv
+/root/ros2_ws/install/lidar_imu_odometry/share/ament_index/resource_index/packages/lidar_imu_odometry
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig.cmake
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/cmake/lidar_imu_odometryConfig-version.cmake
+/root/ros2_ws/install/lidar_imu_odometry/share/lidar_imu_odometry/package.xml
+/root/ros2_ws/install/lidar_imu_odometry/lib/lidar_imu_odometry/odom_node
